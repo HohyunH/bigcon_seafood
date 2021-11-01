@@ -62,6 +62,7 @@ m = NeuralProphet()
 metrics = m.fit(df, freq =freq, epochs=epochs)
 ```
 
+#### 코드 설명
 
 - dataloading.py : 데이터 전처리
 - attention_weight_avg.py : attention 기반 가중 평균 가격 산출
