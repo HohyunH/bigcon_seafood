@@ -65,4 +65,9 @@ metrics = m.fit(df, freq =freq, epochs=epochs)
 
 - dataloading.py : 데이터 전처리
 - attention_weight_avg.py : attention 기반 가중 평균 가격 산출
+<pre>
+<code>
+python attention_weight_avg.py --name ['squid', 'shrimp', 'salmon'] --head [num of attention head] --head_size [dimension of attention]
+</code>
+</pre>
 - attention_neuralprophet.ipynb : 전체 작업 및 Prophet 모델 사용 가격 예측
