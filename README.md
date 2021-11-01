@@ -6,9 +6,13 @@
 https://www.bigcontest.or.kr/points/content.php#ct03
 
 ** Contributor
+
 김보상 : data.liszt@gmail.com
+
 정영상 : videorighter@ds.seoultech.ac.kr
+
 황호현 : hhhwang94@ds.seoultech.ac.kr
+
 한주희 : fgtr153@ds.seoultech.ac.kr
 
 ## 문제 정의 :  수산물 수입가격 예측을 통한 최적의 가격 예측 모형 도출 
