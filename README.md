@@ -43,8 +43,11 @@ multi = MultiHeadAttention(num_heads=num_heads, head_size=head_size, dropout=dro
 ![image](https://user-images.githubusercontent.com/46701548/139640215-f2bc314d-bc64-487b-add4-7ad43a72c066.png)
 
 #### Prophet 모델 사용
-https://facebook.github.io/prophet/
+- Prophet Reference : https://facebook.github.io/prophet/
 ```python
+# Neural Prophet - Advanced Facebook Prophet
+from neuralprophet import NeuralProphet
+
 df = pd.DataFrame(columns=['ds', 'y'])
 df['ds'] = train['REG_DATE'].unique()
 df['y'] = ts_train
